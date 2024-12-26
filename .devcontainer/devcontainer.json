@@ -1,0 +1,20 @@
+{
+    "name": "mdspan-dev",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "twxs.cmake",
+                "cheshirekow.cmake-format",
+                "llvm-vs-code-extensions.vscode-clangd",
+                "cschlosser.doxdocgen",
+                "ms-vscode.cmake-tools",
+                "ms-python.python",
+                "ms-python.black-formatter",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}
